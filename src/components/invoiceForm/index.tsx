@@ -38,7 +38,8 @@ function InvoiceForm({
   const { createInvoice, selectedInvoice, updateInvoice, saveAsDraft } =
     useInvoices();
   const { loading, loaderType } = useLoader();
-
+console.log("object")
+console.log("object")
   const formik = useFormik({
     initialValues: {
       streetAddress: "",
