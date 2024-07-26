@@ -63,7 +63,7 @@ export const InvoiceProvider: React.FC<{ children: React.ReactNode }> = ({
       setLoading(false);
     }
   };
-
+console.log("object")
   useEffect(() => {
     if (selectedInvoiceId) {
       fetchInvoiceById();
