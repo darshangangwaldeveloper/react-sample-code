@@ -23,7 +23,7 @@ function Login() {
       navigate("/");
     }
   }, [isAuthenticated, navigate]);
-
+console.log(isAuthenticated)
   return (
     <Box className="LoginPage">
       <Box className="LeftBar">
