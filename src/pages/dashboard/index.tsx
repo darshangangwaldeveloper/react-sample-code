@@ -35,7 +35,7 @@ function Dashboard() {
   const toggleDrawer = (status: boolean) => () => {
     setOpen(status);
   };
-console.log("object")
+
   /**
    * Handles the selection of an invoice and sets the mode (view, edit, create).
    * @param {string} invoiceId - The ID of the selected invoice.
