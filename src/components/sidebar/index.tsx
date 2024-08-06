@@ -7,7 +7,7 @@ import ProfileImg from "../../assets/images/image-avatar.jpg";
 import Logout from "../../assets/images/power-off-icon.svg";
 import { useAuth } from "../../contexts/AuthContext";
 
-
+console.log("object")
 function SideBar() {
   const { userData, logout } = useAuth();
   return (
