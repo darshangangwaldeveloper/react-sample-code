@@ -177,7 +177,7 @@ console.log("object")
       setLoading(false);
     }
   };
-
+console.log("object")
   const markAsPaid = async (id: string) => {
     try {
       setLoaderType(LoaderType.FullWindow);
